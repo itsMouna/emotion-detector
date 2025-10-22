@@ -41,10 +41,24 @@ python detect_emotion_live.py
 
 The webcam window will open and display the detected emotions in real time.
 
+!!### Dataset
+This project uses the FER-2013 dataset for training.  
+Due to size limitations, it is **not included** in the repository.  
+
+You can download it here: [FER-2013 Kaggle](https://www.kaggle.com/datasets/msambare/fer2013)  
+After downloading, extract it into the folder structure:
+
+fer2013/
+├── train/
+├── test/
+
+
+
 Possible improvements
 
 Add more emotion categories
 
 Improve model accuracy with more data
+
 
 Create a simple user interface
